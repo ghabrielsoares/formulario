@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-image: url(imgs/bokeh_texture.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto 0;
+    margin-top: 50px;
+    padding: 40px 20px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp_title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 92%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    font-size: 1.5em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    background-color: rgba(201, 201, 201, 0.5);
+}
+
+button {
+    margin: 0 auto 0;
+    width: 50%;
+    height: 30%;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgb(149, 149, 230);
+    font-size: 2em;
+    
+}
+
+.form_label span {
+    position: absolute;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    cursor: text;
+}
+
+.input:focus {
+    background-color: rgba(241, 240, 240, 0.5);
+    border: 2px solid;
+}
+
+.form_label .span_active {
+   font-family: 'Bebas Neue', cursive;
+    font-size: 1.1em;
+    margin: 8px 10px;
+}
